@@ -1,5 +1,6 @@
 import React from "react";
 import Sawo from "sawo";
+import Dashboard from "./Dashboard";
 require('dotenv').config()
 function Login() { 
 
@@ -25,6 +26,7 @@ React.useEffect(() => {
         ></div>
         {payload && (
         <>
+        <Dashboard/>
         </>
         )}
 </>
